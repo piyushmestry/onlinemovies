@@ -1,0 +1,275 @@
+#Carousel{
+    position: relative;
+    /* top: 5px; */
+    height:400px;
+    width: 1000px;
+}
+
+#sauthmovie{
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(247, 6, 6);
+    border:2px solid red;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(249, 249, 20);
+}
+#bollymovie{
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(247, 6, 6);
+    border:2px solid red;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(249, 249, 20);
+}
+#hollymovie{
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(247, 6, 6);
+    border:2px solid red;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(249, 249, 20);
+}
+
+
+
+#moviescard{
+   background: black;
+}
+.moviesflex{
+   display: flex;
+ 
+}
+.moviesflex > div {
+    
+    background-color: #f1f1f1;
+    margin: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 25%;
+    height: 200px;
+  }
+  .sauthmovies{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .sauthtable{
+    background-color: #f1f1f1;
+    font-size: 30px;
+    font-weight: 600;
+    border: 2px solid green;
+    position: relative;
+    padding: 20px;
+    margin-left: auto;  
+margin-right: auto;  
+    text-align: center;
+  }
+
+  .bollytable{
+    background-color: #f1f1f1;
+    font-size: 30px;
+    font-weight: 600;
+    border: 2px solid green;
+    position: relative;
+    padding: 20px;
+    margin-left: auto;  
+margin-right: auto;  
+    text-align: center;
+  }
+
+  .hollytable{
+    background-color: #f1f1f1;
+    font-size: 30px;
+    font-weight: 600;
+    border: 2px solid green;
+    position: relative;
+    padding: 20px;
+    margin-left: auto;  
+margin-right: auto;  
+    text-align: center;
+  }
+
+ .movietable,th{
+  width: 900px;
+  background-color: #fca3a3;
+  font-size: 25px;
+  font-weight: 500;
+  border: 2px solid green;
+  /* position: relative; */
+  margin-bottom: 20px;
+  margin-left: auto;  
+margin-right: auto;  
+  text-align: center;
+ }
+
+ .movietable,td{
+  width: 900px;
+  background-color: #f1f1f1;
+  font-size: 23px;
+  font-weight: 500;
+  border: 2px solid green;
+  margin-bottom: 20px;
+  margin-left: auto;  
+margin-right: auto;  
+  text-align: center;
+ }
+
+ .music{
+  text-align: center;
+  margin: auto;
+ }
+
+
+ @media screen and (min-width: 320px) {
+  #Carousel{
+    height:150px;
+    width: 1000px;
+}
+
+.sauthtable{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+}
+.bollytable{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+}
+.hollytable{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+}
+.moviesflex > div {   
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  width: 100%;
+  height: 100px;
+}
+.moviesflex{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+ }
+
+ @media screen and (min-width: 375px) {
+  #Carousel{
+    height:160px;
+    width: 1000px;
+}
+
+.sauthtable{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+}
+.bollytable{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+}
+.hollytable{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+}
+.moviesflex > div {   
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  width: 100%;
+  height: 100px;
+}
+.moviesflex{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+ }
+
+ @media screen and (min-width: 425px) {
+  #Carousel{
+    height:190px;
+    width: 1000px;
+}
+
+.sauthtable{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+}
+.bollytable{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+}
+.hollytable{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+}
+.moviesflex > div {   
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 24px;
+  width: 100%;
+  height: 100px;
+}
+.moviesflex{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+ }
+
+ @media screen and (min-width: 768px) {
+  /* #Carousel{
+    height:250px;
+    width: 1000px;
+} */
+
+.sauthtable{
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px;
+}
+.bollytable{
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px;
+}
+.hollytable{
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px;
+}
+.moviesflex > div {   
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 24px;
+  width: 100%;
+  height: 100px;
+}
+.moviesflex{
+  display: flexbox;
+  flex-wrap: nowrap;
+
+}
+ }
+
+ @media screen and (min-width: 768px) {
+  #Carousel{
+    height:350px;
+    width: 1000px;
+}}

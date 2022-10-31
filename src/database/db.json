@@ -1,0 +1,199 @@
+{
+    "login": [
+        {
+            "id": 1,
+            "username": "aaa",
+            "password": "111"
+        },
+        {
+            "id": 2,
+            "username": "bbb",
+            "password": "222"
+        }
+    ],
+    "sauthmovie": [
+        {
+            "id": 1,
+            "moviename": "Dear Comrade",
+            "ReleaseDate": "26 July 2019",
+            "Director": "Bharat Kamma",
+            "IMDBrating": 7.3,
+            "href": "https://youtu.be/zzhfvt5vZHI"
+        },
+        {
+            "id": 2,
+            "moviename": "Bheeshma",
+            "ReleaseDate": "21 February 2020",
+            "Director": "Venky Kudumula",
+            "IMDBrating": 6.5
+        },
+        {
+            "id": 3,
+            "moviename": "Pushpa",
+            "ReleaseDate": "17 December 2021",
+            "Director": "Sukumar",
+            "IMDBrating": 7.6
+        },
+        {
+            "id": 4,
+            "moviename": "Geeta Govindam",
+            "ReleaseDate": "15 August 2018 ",
+            "Director": "Parasuram",
+            "IMDBrating": 7.7
+        }
+    ],
+    "bollymovie": [
+        {
+            "id": 1,
+            "moviename": "Shershaah",
+            "ReleaseDate": "12 August 2021",
+            "Director": "Vishnuvardhan",
+            "IMDBrating": 8.4
+        },
+        {
+            "id": 2,
+            "moviename": "Shamshera",
+            "ReleaseDate": "22 July 2022 ",
+            "Director": "Karan Malhotra",
+            "IMDBrating": 5.0
+        },
+        {
+            "id": 3,
+            "moviename": "Ajab Prem Ki Gajab Kahani",
+            "ReleaseDate": "6 November 2009",
+            "Director": "Rajkumar Santoshi",
+            "IMDBrating": 6.3
+        },
+        {
+            "id": 4,
+            "moviename": "Bajirao Mastani",
+            "ReleaseDate": "18 December 2015 ",
+            "Director": "Sanjay Leela Bhansali",
+            "IMDBrating": 7.2
+        }
+    ],
+    "hollymovie": [
+        {
+            "id": 1,
+            "moviename": "Avatar: The Way of Water",
+            "ReleaseDate": "18 December 2009 ",
+            "Director": "James Cameron",
+            "IMDBrating": 7.8
+        },
+        {
+            "id": 2,
+            "moviename": "Captain Marvel",
+            "ReleaseDate": "27 February 2019",
+            "Director": "Anna Boden",
+            "IMDBrating": 6.8
+        },
+        {
+            "id": 3,
+            "moviename": "Thor: Love and Thunder",
+            "ReleaseDate": "7 July 2022",
+            "Director": "Taika Waititi",
+            "IMDBrating": 6.7
+        },
+        {
+            "id": 4,
+            "moviename": "Fast X",
+            "ReleaseDate": "19 May 2023 ",
+            "Director": "Louis Leterrier",
+            "IMDBrating": 5.2
+        }
+    ],
+    "music": [
+        {
+            "id": 1,
+            "moviename": " Shershaah",
+            "songnames": [
+                {
+                    "name": "Raataan Lambiyan ",
+                    "href": "https://youtu.be/h6lHUn20J5g"
+                },
+                {
+                    "name": "Ranjha",
+                    "href": "https://youtu.be/V7LwfY5U5WI"
+                },
+                {
+                    "name": "Jai Hind Ki Senaa",
+                    "href": "https://youtu.be/0MNXKlU7vHk"
+                },
+                {
+                    "name": "Parinda",
+                    "href": "https://youtu.be/7fhakgay9Eg"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "moviename": " Shamshera",
+            "songnames": [
+                {
+                    "name": "Ji Huzoor",
+                    "href": "https://youtu.be/FwH4ruvzjxQ"
+                },
+                {
+                    "name":  "Fitoor",
+                    "href": "https://youtu.be/hdNg1TAtAHg"
+                },
+                {
+                    "name":"Kaale Naina",
+                    "href": "https://youtu.be/Ieh-dXsR0OE"
+                }
+              
+            ]
+        },
+        {
+            "id": 3,
+            "moviename": "Ajab Prem Ki Ghazab Kahani",
+            "songnames": [
+                {
+                    "name":   "Main Tera Dhadkan Teri",
+                    "href":" https://youtu.be/AgSiokzAqgk"
+                },
+                {
+                    "name":    "Tu Jaane Na",
+                    "href": "https://youtu.be/t8Z2qM07Ugg"
+                },
+                {
+                    "name":   "Prem Ki Naiyya",
+                    "href": "https://youtu.be/J3Ux5TQ4oUc"
+                },
+                {
+                    "name":    "Tera Hone Laga Hoon",
+                    "href": "https://youtu.be/oKNX7EYq8KQ"
+                }
+
+            ]
+        },
+        {
+            "id": 4,
+            "moviename": " Bajirao Mastani",
+            "songnames": [
+                {
+                    "name":     "Mastani",
+                    "href": "https://youtu.be/h6lHUn20J5g"
+                },
+                {
+                    "name":     "Jayabheri",
+                    "href": "https://youtu.be/jOJ7j3W0E-U"
+                },
+                {
+                    "name":      "Gajanana",
+                    "href": "http://youtu.be/KJF8t-BWVRM"
+                }
+                
+               
+            ]
+        }
+    ],
+    "watchlist":[
+        { "id": 1,
+        "moviename": "Dear Comrade",
+        "ReleaseDate": "26 July 2019",
+        "Director": "Bharat Kamma",
+        "IMDBrating": 7.3,
+        "href": "https://youtu.be/zzhfvt5vZHI"}
+    ]
+}
